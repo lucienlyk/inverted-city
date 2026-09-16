@@ -1,0 +1,31 @@
+[
+  {
+    "mirror": "a59fab3d-e150-4be5-b4e8-09b695ae6df2",
+    "sha256": "3d09f630c14ad56e1fb9fb7cbbdd2fa1d874ffbde945f3410e98e35bd48f93a6",
+    "page": "https://open3dlab.com/project/e7d0aa61-a28a-45aa-a0d8-ce7a2566c20f/",
+    "file": "Mio_Neon_Revenge.blend",
+    "bytes": 273211991,
+    "sha256_verified": "3d09f630c14ad56e1fb9fb7cbbdd2fa1d874ffbde945f3410e98e35bd48f93a6",
+    "uploader": "Vennox228",
+    "original_port_credit": "GeneralCreations",
+    "game_asset_credit": "Hazelight Studios",
+    "listed_license": "CC BY-NC-ND 4.0; uploader-selected; local evaluation only; do not redistribute or publish"
+  },
+  {
+    "mirror": "35f199d5-c55a-424f-9f9a-acc3d35c5f75",
+    "sha256": "530f557a4d5f5f5b2da1e15ffafd79a2f2c1536de0d6d14b6f8fd65616bae889",
+    "page": "https://open3dlab.com/project/159dfc46-d941-4d34-baa5-79e4d1f2addc/",
+    "file": "Zoe_Neon_Revenge.blend",
+    "bytes": 234038055,
+    "sha256_verified": "530f557a4d5f5f5b2da1e15ffafd79a2f2c1536de0d6d14b6f8fd65616bae889",
+    "uploader": "Vennox228",
+    "original_port_credit": "GeneralCreations",
+    "game_asset_credit": "Hazelight Studios",
+    "listed_license": "CC BY-NC-ND 4.0; uploader-selected; local evaluation only; do not redistribute or publish"
+  },
+  {
+    "source": "https://threejs.org/examples/models/gltf/Soldier.glb",
+    "description": "Mixamo movement clips from official three.js animation blending example. Retargeting reference, not original Split Fiction motion.",
+    "sha256": "dfb230fc1f942f259dd00281a1186953ad602fc5d69067ce63e24b2aa439736b"
+  }
+]
