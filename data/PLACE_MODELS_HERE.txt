@@ -1,9 +1,0 @@
-把你的角色模型放到这个 data/ 目录，文件名要对应：
-
-  mio.glb.js          ← Mio 角色模型（GLB 转成的 .js 数据包）
-  zoe.glb.js          ← Zoe 角色模型
-  mio-motion.json.js  ← Mio 动作数据
-  zoe-motion.json.js  ← Zoe 动作数据
-
-缺少这些文件时，index.html 能打开，但不会显示可操作角色。
-素材版权与来源见仓库根目录的「素材来源.json」，请勿上传受限制模型到公开仓库。

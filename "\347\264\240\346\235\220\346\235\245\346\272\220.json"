@@ -1,31 +1,29 @@
 [
   {
-    "mirror": "a59fab3d-e150-4be5-b4e8-09b695ae6df2",
-    "sha256": "3d09f630c14ad56e1fb9fb7cbbdd2fa1d874ffbde945f3410e98e35bd48f93a6",
-    "page": "https://open3dlab.com/project/e7d0aa61-a28a-45aa-a0d8-ce7a2566c20f/",
-    "file": "Mio_Neon_Revenge.blend",
-    "bytes": 273211991,
-    "sha256_verified": "3d09f630c14ad56e1fb9fb7cbbdd2fa1d874ffbde945f3410e98e35bd48f93a6",
-    "uploader": "Vennox228",
-    "original_port_credit": "GeneralCreations",
-    "game_asset_credit": "Hazelight Studios",
-    "listed_license": "CC BY-NC-ND 4.0; uploader-selected; local evaluation only; do not redistribute or publish"
-  },
-  {
-    "mirror": "35f199d5-c55a-424f-9f9a-acc3d35c5f75",
-    "sha256": "530f557a4d5f5f5b2da1e15ffafd79a2f2c1536de0d6d14b6f8fd65616bae889",
-    "page": "https://open3dlab.com/project/159dfc46-d941-4d34-baa5-79e4d1f2addc/",
-    "file": "Zoe_Neon_Revenge.blend",
-    "bytes": 234038055,
-    "sha256_verified": "530f557a4d5f5f5b2da1e15ffafd79a2f2c1536de0d6d14b6f8fd65616bae889",
-    "uploader": "Vennox228",
-    "original_port_credit": "GeneralCreations",
-    "game_asset_credit": "Hazelight Studios",
-    "listed_license": "CC BY-NC-ND 4.0; uploader-selected; local evaluation only; do not redistribute or publish"
-  },
-  {
+    "asset": "角色模型 mio.glb.js / zoe.glb.js",
     "source": "https://threejs.org/examples/models/gltf/Soldier.glb",
-    "description": "Mixamo movement clips from official three.js animation blending example. Retargeting reference, not original Split Fiction motion.",
-    "sha256": "dfb230fc1f942f259dd00281a1186953ad602fc5d69067ce63e24b2aa439736b"
+    "original_file": "Soldier.glb",
+    "license": "MIT (three.js examples)",
+    "credit": "three.js (https://threejs.org/), author Mr.doob / three.js contributors",
+    "note": "本开源版本使用 Soldier.glb 作为可自由再分发的占位角色；已去除骨骼名前缀 mixamorig: 并采样其原生 Idle/Run/Walk 动画为 motion 格式。可替换为你自有版权的模型。sha256 见各 motion 文件内 target_sha256。"
+  },
+  {
+    "asset": "角色动画 mio-motion.json.js / zoe-motion.json.js",
+    "source": "https://threejs.org/examples/models/gltf/Soldier.glb",
+    "license": "MIT (three.js examples)",
+    "credit": "three.js contributors",
+    "note": "Soldier 原生动画（Idle/Run/Walk）逐帧采样为游戏 motion 格式；source_sha256 为 Soldier.glb 的 sha256。"
+  },
+  {
+    "asset": "3D 渲染引擎 Babylon.js",
+    "source": "https://www.babylonjs.com/",
+    "license": "Apache-2.0",
+    "credit": "Babylon.js (Microsoft)",
+    "note": "见仓库内 Babylon-LICENSE.md"
+  },
+  {
+    "asset": "已移除的早期第三方角色模型（Mio_Neon_Revenge / Zoe_Neon_Revenge）",
+    "license": "CC BY-NC-ND 4.0；原作者明示 do not redistribute or publish",
+    "note": "出于开源合规原因已从本仓库移除，未随仓库分发。如你拥有其再分发授权，可本地自行放置到 data/ 对应位置离线游玩（请勿上传到公开仓库）。"
   }
 ]
