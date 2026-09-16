@@ -1,0 +1,2 @@
+# 统一以 LF 检出，防止 Windows 克隆时 CRLF 破坏 data/*.glb.js 内的 base64 资源
+* text=auto eol=lf
